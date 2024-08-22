@@ -42,5 +42,42 @@
         android:id="@+id/home2"
         android:name="com.example.e_commerce.ui.Home"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home2_to_searchFragment"
+            app:destination="@id/searchFragment" />
+        <action
+            android:id="@+id/action_home2_to_cartFragment"
+            app:destination="@id/cartFragment" />
+        <action
+            android:id="@+id/action_home2_to_favoriteFragment"
+            app:destination="@id/favoriteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.e_commerce.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" >
+        <action
+            android:id="@+id/action_cartFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.e_commerce.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" >
+        <action
+            android:id="@+id/action_favoriteFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.e_commerce.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_searchFragment_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
 </navigation>
