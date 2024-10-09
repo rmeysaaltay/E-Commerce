@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#BA78C6CE"
+    android:background="@drawable/background"
     tools:context=".ui.SignUpFragment">
 
     <TextView
@@ -75,8 +75,6 @@
         android:layout_marginStart="4dp"
         android:layout_marginBottom="38dp"
         app:layout_constraintHorizontal_bias="0.476"
-        android:clickable="true"
-        android:contextClickable="true"
         android:focusable="true"
         android:text="Hesabın var mı?"
         android:textColor="@color/black"
