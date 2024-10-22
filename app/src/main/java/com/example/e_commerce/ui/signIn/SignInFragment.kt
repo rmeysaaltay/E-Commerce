@@ -35,7 +35,7 @@ class SignInFragment : Fragment() {
 
         binding.textView2.text = viewModel.someFlow.value
 
-        viewModel.updateData("benim adım name")
+//        viewModel.updateData("benim adım name")
 
 
         // repeatOnLifecycle kullanımı

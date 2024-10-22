@@ -21,7 +21,7 @@ class SplashFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         scope.launch {
             delay(1500)
        val action=SplashFragmentDirections.actionSplashFragmentToSignInFragment()

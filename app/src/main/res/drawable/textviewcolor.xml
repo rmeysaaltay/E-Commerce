@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="#B0D6E4"/> <!-- Arka plan rengi (maviyle uyumlu pastel ton) -->
-    <corners android:radius="16dp"/> <!-- Köşe yarıçapı -->
-    <!-- Diğer özelleştirmeler -->
+    <solid android:color="#A0C4D7"/>
+    <corners android:radius="16dp"/>
+
 </shape>
+
